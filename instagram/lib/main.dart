@@ -24,15 +24,13 @@ class MyApp extends StatelessWidget {
         ],
       ),
       body: Container(
-          child: Column(
-        children: [
-          Image.asset('asstes/images/jelly_fish.jpg'),
-          Title(
-            color: Colors.black,
-            child: Text('hello'),
-          )
-        ],
-      )),
+        child: Column(
+          children: [
+            Image.asset('assets/images/jelly_fish.jpg'),
+            Text("lkjlkj"),
+          ],
+        ),
+      ),
       bottomNavigationBar: BottomNavigationBar(
           showSelectedLabels: true,
           showUnselectedLabels: true,
