@@ -89,9 +89,9 @@ class HomePage extends StatelessWidget {
               Container(
                 child: Column(
                   children: [
-                    Text('lkjlkj'),
-                    Text("글쓴이"),
-                    Text("글내용"),
+                    Text('글쓴이 : ' + data[i]['user']),
+                    Text('제목 : ' + data[i]['content']),
+                    Text('날짜 : ' + data[i]['date']),
                   ],
                 ),
               )
